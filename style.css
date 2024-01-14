@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)) , url(travel.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)) , url(travel.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+.h-text span{
+    font-family: sans-serif;
+    color: white;
+}
+nav{
+    width: 100%;
+    height: 100px;
+  
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+align-items: center;
+}
+.logo{
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+.menu a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.menu a:hover{
+   border: 1px solid rgb(59, 221, 62);
+   background: transparent;
+}
+.register a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 8px;
+    background: rgb(59, 221, 62);
+}
+.register a:hover{
+    border: 1px solid rgb(59, 221, 62);
+    background: transparent;
+}
+.h-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 650px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+}
+.h-text span{
+    letter-spacing: 3px;
+}
+.h-text h1{
+    font-size: 3em;
+    font-family: serif;
+}
+
+.h-text a{
+    text-decoration: none;
+    background: rgb(59, 221, 62);
+    padding: 10px 20px;
+    color: #fff;
+    letter-spacing: 3px;
+    transition: 0.4s;
+}
+.h-text a:hover{
+    border: 1px solid rgb(59, 221, 62);
+    background: transparent;
+}
+.info{
+    width: 27%;
+    padding-left: 50px;
+    color: rgb(59, 221, 62);
+    font-family: serif;
+    font-size: small;
+}
